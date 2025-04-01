@@ -1,0 +1,19 @@
+db 'VERSION equ "'
+virtual at 0
+	digits::
+	n = %t / 50
+	while n
+	     d = '0' + n mod 36
+	     if d > '9'
+		d = d - '0' - 10 + 'a'
+	     end if
+	     n = n / 36
+	     db d
+	end while
+	count = $
+end virtual
+repeat 4
+	load d byte from digits:count-%
+	db d
+end repeat
+db '"'

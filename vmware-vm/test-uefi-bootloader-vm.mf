@@ -1,0 +1,3 @@
+SHA256(test-uefi-bootloader-vm.ovf)= 479841c93a1bec5fe753390082e249ea272cc6e48833bd0d81db6e11e3bacefa
+SHA256(test-uefi-bootloader-vm-file1.iso)= 74177598fcacf34cbff40874944c3b5fed81952927a07a31f04566cef2114d2c
+SHA256(test-uefi-bootloader-vm-file2.nvram)= 56f3000139cbf860abea271ae96822a22691fbe00593638c0a7fdd8175bf91ca
