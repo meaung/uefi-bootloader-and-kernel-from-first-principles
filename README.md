@@ -20,4 +20,5 @@ Optional tools for running the demo:
 
 ## Usage
 
-Verify that prerequisites are installed and xecute 'make' in the root directory to automatically build and run the demo.
+1. Verify that prerequisites are installed
+2. Execute 'make' in the root directory to automatically build and run the demo.
