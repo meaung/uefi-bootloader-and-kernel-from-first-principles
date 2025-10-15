@@ -1,6 +1,23 @@
-# Test implementation of a UEFI x64 bootloader
+# An ABI-Level Approach: Implementing a UEFI Bootloader and Kernel from First Principles
 
-This is an implementation of the term paper for my Bachelor's in Computer Science:
-<https://github.com/posalusa24/cs-term-paper>
+This repository holds the supplementary material for the paper "An ABI-Level Approach: Implementing a UEFI Bootloader and Kernel from First Principles" submitted to the ICAIT 2025 conference. The repository contains the source and binary files for a UEFI x64 bootloader and kernel written in FASM.
 
-This repository holds the source and binary files for a UEFI bootloader prototype for a custom OS written in FASM.
+## Prerequisites
+
+The implementation was tested in a Linux environment with the following dependencies:
+
+Build dependencies:
+
+* coreutils
+* make
+* flat assembler (fasm)
+
+Optional tools for running the demo:
+
+* mtools
+* xorriso
+* qemu
+
+## Usage
+
+Verify that prerequisites are installed and xecute 'make' in the root directory to automatically build and run the demo.
